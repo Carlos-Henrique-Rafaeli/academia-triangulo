@@ -10,9 +10,12 @@ config_version=5
 
 [application]
 
-config/name="AcademiaTriangulo"
+config/name="Calculadora de Triângulos"
+config/description="Levantamento de Perfil - Atividade 01"
+config/version="1.0"
 run/main_scene="res://Cenas/base_jogo.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
 
 [display]

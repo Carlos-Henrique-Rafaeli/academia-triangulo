@@ -11,14 +11,13 @@ var index_z : int
 
 
 func _calcular_triangulo(x, y, z):
-	print(x, " ", y, " ", z)
-	
 	if x == 0 or y == 0 or z == 0:
 		triangulolabel.text = "O triângulo é: Inválido"
 		triangulotexture.texture = null
 		return
 	
-	if x + y > z or x + z > y or z + y > x:
+	
+	if x + y > z and x + z > y and z + y > x:
 		
 		if x == y and y == z:
 			triangulolabel.text = "O triângulo é: Equilátero"
